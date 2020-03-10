@@ -1,0 +1,22 @@
+{
+  "name": "nodeexpresssetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --require dotenv/config server.js",
+    "start:dev": "nodemon --require dotenv/config server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "generator",
+    "starter file"
+  ],
+  "author": {
+    "name": "Michael Ogunsanmi",
+    "email": "ogunsanmimichael@gmail.com"
+  },
+  "license": "ISC"
+}
