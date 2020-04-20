@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21877b5d-0e07-4bde-a9a6-ad4c95194c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlewares/asyncWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/error404Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/startup/views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/exampleController/exampleController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/exampleController/exampleController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ExampleModel/post/examplePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/post/examplePost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ExampleModel/pre/examplePre.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/pre/examplePre.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ExampleModel/statics/exampleStatic.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/statics/exampleStatic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/logging.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/logging.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="21877b5d-0e07-4bde-a9a6-ad4c95194c81" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +66,7 @@
       <workItem from="1583760919624" duration="24136000" />
       <workItem from="1583851642227" duration="7127000" />
       <workItem from="1583863103998" duration="6571000" />
-      <workItem from="1587349911804" duration="2147000" />
+      <workItem from="1587349911804" duration="2447000" />
     </task>
     <servers />
   </component>
