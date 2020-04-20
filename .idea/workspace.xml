@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21877b5d-0e07-4bde-a9a6-ad4c95194c81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/asyncWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/error404Route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startup/views.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/exampleController/exampleController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/exampleController/exampleController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ExampleModel/post/examplePost.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/post/examplePost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ExampleModel/pre/examplePre.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/pre/examplePre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ExampleModel/statics/exampleStatic.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/ExampleModel/statics/exampleStatic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup/logging.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/logging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startup/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/startup/routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,19 +43,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/models/ExampleModel/utils" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/middlewares" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\controllers\exampleController" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\nodeExpressFileStructure\middlewares" />
+      <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\nodeExpressFileStructure\routes" />
       <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\models\ExampleModel\utils" />
       <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\models\ExampleModel\post" />
       <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\models\ExampleModel\methods" />
-      <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MICHAEL OGUNSANMI\Desktop\AI &amp; CS\Studying Source Codes\Max Node\Projects\nodeBoilerPlate\controllers\exampleController" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,7 +84,8 @@
       <updated>1583760918111</updated>
       <workItem from="1583760919624" duration="24136000" />
       <workItem from="1583851642227" duration="7127000" />
-      <workItem from="1583863103998" duration="5216000" />
+      <workItem from="1583863103998" duration="6571000" />
+      <workItem from="1587349911804" duration="2147000" />
     </task>
     <servers />
   </component>
@@ -80,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

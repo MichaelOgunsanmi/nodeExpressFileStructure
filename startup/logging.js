@@ -2,6 +2,8 @@ const winston = require('winston');
 require('winston-mongodb');
 require('express-async-errors');
 
+const server = require('../server');
+
 
 const winstonSetting = (filename) => {
     return {
@@ -18,22 +20,12 @@ const winstonSetting = (filename) => {
 };
 
 
-const dbConnection = () => {
-    const dbLocal = process.env.DB_LOCAL;
-    const dbAtlas = proces.env.DB_ONLINE;
-    const db = dbLocal || dbAtlas;
-
-    return {
-        db,
-        name: "logFile"
-    }
-};
-
-
 module.exports = function () {
 
-    process.on('unhandledRejections', (ex) => {
-        throw(ex)
+    process.on('unhandledRejection', (ex) => {
+        server.close(() => {
+            throw(ex)
+        });
     });
 
     winston.add(
@@ -61,4 +53,10 @@ module.exports = function () {
         })
     );
 
+    process.on('SIGTERM', () => {
+        winston.info(`SIGTERM received, shutting down gracefully`);
+        server.close(() => {
+            winston.info(`Process terminated`);
+        });
+    });
 };

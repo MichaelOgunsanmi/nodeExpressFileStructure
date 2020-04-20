@@ -39,9 +39,12 @@ for each folder and file.
         SET NODE_ENV=production (for production environment)
         EXPORT NODE_ENV=developemnt (for development environment)`
 - Install the dotenv package using "npm install dotenv"
-- In the .env file created, set the PORT number and other environment variables using the format below
+- In the .env file created, set the PORT number, local and online database connection string
+and other environment variables using the format below
     
         PORT=5000
+        DB_LOCAL=LOCAL_CONNECTION_STRING
+        DB_ONLINE=ONLINE_CONNECTION_STRING
         EXAMPLE_ENVIRONMENT_VARIABLE=EXAMPLE_ENVIRONMENT_VALUE
 
 
@@ -101,7 +104,7 @@ file that requires the logging functionality.
 ### **middlewares**
 - Add middleware necessary for the project e.g authentication.js, maintenance503.js e.t.c. Remember to call next() to 
 allow for continuation of the request-response processing pipeline
-- error.js catches any error in the request-processing pipeline and uses winston to log these errors.
+- globalErrorHandler.js catches any error in the request-processing pipeline and uses winston to log these errors.
 
 
 ### **models**

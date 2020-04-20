@@ -1,5 +1,6 @@
-//Since it is static, no need for this binding.
+
 const exampleStatic = () => {
+    // const thisPlaceHolder = this;
     // define code here
 };
 
